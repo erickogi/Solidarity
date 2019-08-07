@@ -1,0 +1,2 @@
+include ':app', ':common', ':badge'
+rootProject.name='Solidarity'

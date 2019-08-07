@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">Kudheha</string>
+    <string name="edit">Edit</string>
+    <string name="address">Address</string>
+    <string name="farmer_group">Farmer Group</string>
+    <string name="comments">Comments</string>
+    <string name="acarage">Acarage</string>
+
+    <string-array name="age_category">
+        <item>Age Category</item>
+        <item>Above 35</item>
+        <item>Below 35</item>
+    </string-array>
+
+    <string-array name="water_source">
+        <item>Source of Water</item>
+        <item>Rain</item>
+        <item>River</item>
+        <item>Borehole</item>
+        <item>Dam</item>
+        <item>Piped</item>
+    </string-array>
+
+    <string-array name="technology">
+        <item>Technology Used</item>
+        <item>Irrigation</item>
+        <item>Soil and Water Sensors</item>
+        <item>Weather Tracking</item>
+        <item>Pervasive Automation</item>
+        <item>Minichromosomal Technology</item>
+        <item>RFID Technology</item>
+        <item>Vertical Farming</item>
+    </string-array>
+	
+	<string name="file_provider" translatable="false">com.agriclinic.serviceprovider.fileprovider</string>
+
+
+
+</resources>

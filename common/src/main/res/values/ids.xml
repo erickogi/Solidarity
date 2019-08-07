@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<item name="control_tag" type="id"/>
+	<item name="fscv_id" type="id"/>
+
+</resources>

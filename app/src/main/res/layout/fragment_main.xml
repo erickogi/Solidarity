@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        <ImageView
+                android:layout_width="match_parent"
+                android:src="@drawable/background_image"
+                android:layout_gravity="center"
+                android:layout_height="match_parent" />
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/colorPrimary"
+                android:alpha="0.5">
+
+        </LinearLayout>
+
+        <LinearLayout
+                android:id="@+id/fullscreen_content_controls"
+                android:layout_width="match_parent"
+                android:layout_height="170dp"
+                android:background="@color/colorPrimary"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:orientation="vertical">
+
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Name: John Johnstone"
+                    android:textSize="18sp"
+                    android:textColor="@color/color_white"
+                    android:visibility="visible"/>
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Occupation: Domestic Worker"
+                    android:textSize="18sp"
+                    android:textColor="@color/color_white"
+                    android:visibility="visible"/>
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Subscription Status: Active"
+                    android:textSize="18sp"
+                    android:textColor="@color/color_white"
+                    android:visibility="visible"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="8dp"
+                android:layout_below="@+id/fullscreen_content_controls"
+                android:orientation="vertical">
+
+            <LinearLayout
+                    android:id="@+id/lastlayout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                <LinearLayout
+                        android:id="@+id/incidence_reporting"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="match_parent"
+                        android:layout_margin="5dp"
+                        android:background="@drawable/rounded_rect_bg_white"
+                        android:orientation="vertical"
+                        android:visibility="visible">
+
+                    <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            android:gravity="center"
+                            android:orientation="horizontal">
+
+                        <ImageButton
+                                android:layout_width="50dp"
+                                android:layout_height="50dp"
+                                android:background="@drawable/ic_launcher"
+                                android:clickable="false"
+                                android:focusable="false"
+                                android:tint="@color/color_white" />
+                    </LinearLayout>
+
+                    <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="10dp"
+                            android:layout_marginTop="5dp"
+                            android:gravity="center"
+                            android:text="Report Incidence"
+                            android:textColor="@color/color_black"
+                            android:textSize="15sp"
+                            android:textStyle="bold" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                        android:id="@+id/alerts"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="match_parent"
+                        android:layout_margin="5dp"
+                        android:background="@drawable/rounded_rect_bg_white"
+                        android:orientation="vertical"
+                        android:visibility="visible">
+
+                    <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            android:gravity="center"
+                            android:orientation="horizontal">
+
+                        <ImageButton
+                                android:layout_width="50dp"
+                                android:layout_height="50dp"
+                                android:background="@drawable/ic_launcher"
+                                android:clickable="false"
+                                android:focusable="false"
+                                android:tint="@color/color_white"/>
+                    </LinearLayout>
+
+                    <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="10dp"
+                            android:layout_marginTop="5dp"
+                            android:gravity="center"
+                            android:text="Alerts"
+                            android:textColor="@color/color_black"
+                            android:textSize="15sp"
+                            android:textStyle="bold" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                        android:id="@+id/constitution"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="match_parent"
+                        android:layout_margin="5dp"
+                        android:background="@drawable/rounded_rect_bg_white"
+                        android:orientation="vertical"
+                        android:visibility="visible">
+
+                    <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            android:gravity="center"
+                            android:orientation="horizontal">
+
+                        <ImageButton
+                                android:layout_width="50dp"
+                                android:layout_height="50dp"
+                                android:background="@drawable/ic_launcher"
+                                android:clickable="false"
+                                android:focusable="false"
+                                android:tint="@color/color_white"/>
+                    </LinearLayout>
+
+                    <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="10dp"
+                            android:layout_marginTop="5dp"
+                            android:gravity="center"
+                            android:text="Constitution"
+                            android:textColor="@color/color_black"
+                            android:textSize="15sp"
+                            android:textStyle="bold" />
+
+                </LinearLayout>
+
+
+
+            </LinearLayout>
+            <LinearLayout
+                    android:id="@+id/second_layout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                <LinearLayout
+                        android:id="@+id/my_subscriptions"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="match_parent"
+                        android:layout_margin="5dp"
+                        android:background="@drawable/rounded_rect_bg_white"
+                        android:orientation="vertical"
+                        android:visibility="visible">
+
+                    <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            android:gravity="center"
+                            android:orientation="horizontal">
+
+                        <ImageButton
+                                android:layout_width="50dp"
+                                android:layout_height="50dp"
+                                android:background="@drawable/ic_launcher"
+                                android:clickable="false"
+                                android:focusable="false"
+                                android:tint="@color/color_white" />
+                    </LinearLayout>
+
+                    <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="10dp"
+                            android:layout_marginTop="5dp"
+                            android:gravity="center"
+                            android:text="My Subscriptions"
+                            android:textColor="@color/color_black"
+                            android:textSize="15sp"
+                            android:textStyle="bold" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                        android:id="@+id/my_profile"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="match_parent"
+                        android:layout_margin="5dp"
+                        android:background="@drawable/rounded_rect_bg_white"
+                        android:orientation="vertical"
+                        android:visibility="visible">
+
+                    <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            android:gravity="center"
+                            android:orientation="horizontal">
+
+                        <ImageButton
+                                android:layout_width="50dp"
+                                android:layout_height="50dp"
+                                android:background="@drawable/ic_launcher"
+                                android:clickable="false"
+                                android:focusable="false"
+                                android:tint="@color/color_white"/>
+                    </LinearLayout>
+
+                    <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="10dp"
+                            android:layout_marginTop="5dp"
+                            android:gravity="center"
+                            android:text="My Profile"
+                            android:textColor="@color/color_black"
+                            android:textSize="15sp"
+                            android:textStyle="bold" />
+
+                </LinearLayout>
+                <Space
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:visibility="visible"
+                        android:layout_weight="1"/>
+
+
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+    </RelativeLayout>
+
+</LinearLayout>
